@@ -1,0 +1,32 @@
+{
+  "defaultBrand": "onprint",
+  "brands": {
+    "onprint": {
+      "displayName": "OnPrint",
+      "palette": { "primary": "#0B5FFF", "accent": "#FFB400", "neutral": "#0F172A" },
+      "fonts": { "headline": "Inter Bold", "body": "Inter Regular" },
+      "voice": "Professional, friendly, retail-tech focused",
+      "tagline": "Print smart. Sell fast.",
+      "logoPath": "C:/Users/smart/Desktop/projects/onprint-automations/assets/logo.png",
+      "negativePrompt": "no stock-photo people, no lens flare, no clip-art"
+    },
+    "smartpos": {
+      "displayName": "SmartPOS",
+      "palette": { "primary": "#111827", "accent": "#22C55E", "neutral": "#F3F4F6" },
+      "fonts": { "headline": "Inter Bold", "body": "Inter Regular" },
+      "voice": "Modern, efficient, trustworthy point-of-sale tech",
+      "tagline": "Checkout, reinvented.",
+      "logoPath": "C:/Users/smart/.config/gemini-social/assets/smartpos-logo.png",
+      "negativePrompt": "no clutter, no outdated cash-register imagery, no clip-art"
+    },
+    "smartcalendar": {
+      "displayName": "SmartCalendar",
+      "palette": { "primary": "#7C3AED", "accent": "#F59E0B", "neutral": "#1E1B4B" },
+      "fonts": { "headline": "Inter Bold", "body": "Inter Regular" },
+      "voice": "Calm, organized, productivity focused",
+      "tagline": "Your time, handled.",
+      "logoPath": "C:/Users/smart/.config/gemini-social/assets/smartcalendar-logo.png",
+      "negativePrompt": "no busy backgrounds, no clip-art, no generic calendar grids"
+    }
+  }
+}

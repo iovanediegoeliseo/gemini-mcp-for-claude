@@ -1,0 +1,30 @@
+{
+  "name": "gemini-social-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for generating on-brand social-media images via Google Gemini 2.5 Flash Image (Nano Banana)",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "gemini-social-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
